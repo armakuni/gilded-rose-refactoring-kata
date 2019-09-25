@@ -2,8 +2,6 @@
 
 Adding tests to legacy code, with some speed!
 
-## The Challenge
-
 > ======================================
 > Gilded Rose Requirements Specification
 > ======================================
@@ -17,3 +15,21 @@ Adding tests to legacy code, with some speed!
 This introduction, and this Kata is taken from [emilybache](https://github.com/emilybache/GildedRose-Refactoring-Kata) and this Kata was originally created by [Terry Hughes](https://github.com/NotMyself/GildedRose)
 
 This is a great Kata to use if you wish to experiment with different ways of testing legacy code.
+
+## Getting Set Up
+
+```pipenv install``
+
+## Running the Tests
+
+``` pipenv run pytest --cov-report html:cov_html --cov=gilded_rose --approvaltests-use-reporter='PythonNative' ```
+
+## Your Challenge
+
+1. Run the tests
+1. Open coverage file ```cov_html/index.html```
+1. Modify the return_fixture in test_approval.py until you get 100% code coverage
+
+## Your Challenge (continued)
+
+1. Refactor the code!
