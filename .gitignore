@@ -1,0 +1,7 @@
+*.pyc
+.cache
+.coverage
+.idea/
+*.iml
+cov_*
+.cov
