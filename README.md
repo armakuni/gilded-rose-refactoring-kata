@@ -16,7 +16,7 @@ This is a great Kata to use if you wish to experiment with different ways of tes
 
 ## Getting Set Up
 
-```pipenv install``
+```pipenv install```
 
 ## Running the Tests
 
